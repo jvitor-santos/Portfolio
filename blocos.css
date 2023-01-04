@@ -1,0 +1,188 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#bloco1{
+  width: 100.8%;
+    height: 1000px;
+    background-image: url(./assest/background-montain-blue.jpg);
+    background-repeat:no-repeat;
+    background-size: 208%;
+    background-position-y: 35%;
+    margin-top: -9px;
+    margin-left: -8px;
+}
+
+#bloco2{
+    background-color: #1e2131;
+    width: 100.8%;
+    height: 1000px;
+    margin-left: -8px;
+}
+#bloco3{
+    background-color: #24253c;
+    width: 100.8%;
+    height: 1000px;
+    margin-left: -8px;
+    margin-bottom: -10px;
+}
+
+#imagem_circular{
+    display:inline-block;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: -25px 0 0 -25px;
+    top: 35%;
+    left: 47%;
+    position: absolute;
+}
+
+#txt-color{
+    color: white;
+    border-color: orange;
+}
+
+#text_nome{
+    margin: -25px 0 0 -25px;
+    top: 65%;
+    left: 43%;
+    position: absolute;
+}
+
+#text_dev{
+    margin: -25px 0 0 -25px;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+}
+
+.table{
+    border: 2px solid;
+    border-spacing:10px;
+}
+
+.table2{
+    border-spacing:50px;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.button:hover {background-color: orange}
+.button:active {
+    background-color: orange;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    float: right;
+    margin-right: 100px;
+  }
+  .menu li + li {
+    margin-left: 100px;
+  }
+  .menu a {
+    display: inline-block;
+    font-family: Elephant;
+    font-size: 1.125rem;
+    color: white;
+    text-decoration: none;
+    padding: 1.125rem 0;
+    position: fixed;
+  }
+  .menu a:hover {
+    color: orange;
+  }
+  .menu button{
+    font-family: Elephant;
+    margin-left: -10px;
+    background-color: transparent;
+    border: 1px solid orange;
+    color: orange;
+    border-radius: 10px;
+  }
+  .menu button:hover{
+    transform: scale(1.2);
+    color: white;
+  }
+  
+  .slide{
+    width: 1024px;
+    height: 576px;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.4s;
+  }
+  .slides{
+    width: 5120px;
+    display: flex;
+  }
+  .image img{
+    width: 1024px;
+    height: 576px;
+  }
+  #atual{
+    margin-left: 0;
+    transition: all 2s;
+  }
+  .btn{
+    position:absolute;
+    color: white;
+    padding: 165px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 1.7em;
+    margin-top: 1850px;
+  }
+  .button:hover{
+    transform: scale(1.5);
+  }
+  #back{
+    top: 50%;
+    left: 50px;
+  }
+  #next{
+    top: 50%;
+    right: 50px;
+  }
+.balls{
+    position: absolute;
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    
+}
+.balls div{
+    transition: all 0.5s;
+    border: 3px solid #fff;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.balls div:hover{
+    background: #fff;
+}
+.imgAtual{
+    transition: all 0.5s;
+    background: #fff;
+}
